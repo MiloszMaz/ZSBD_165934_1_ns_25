@@ -1,0 +1,9 @@
+DELETE
+FROM jobs
+WHERE max_salary > 9000;
+
+DROP TABLE employees;
+
+FLASHBACK TABLE employees TO BEFORE DROP;
+
+COMMIT;
